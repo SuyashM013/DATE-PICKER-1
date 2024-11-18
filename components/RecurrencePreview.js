@@ -22,7 +22,7 @@ const RecurrencePreview = () => {
             return selectedDates.some(
                 (d) => format(new Date(d), 'yyyy-MM-dd') === formattedDate
             )
-                ? 'bg-black text-pink-500 rounded-full'
+                ? 'bg-blue-300 text-pink-500 rounded-full'
                 : null;
         }
     };
